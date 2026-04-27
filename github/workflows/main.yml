@@ -23,4 +23,5 @@ jobs:
       - name: Run Deploy Script on Server
         run: |
           ssh -o StrictHostKeyChecking=no ubuntu@${{ secrets.EC2_HOST }} \
-          "bash /home/ubuntu/Automated-AWS-Deployment-CI-CD-Pipeline /deploy.sh"
+          "bash /home/ubuntu/deploy.sh"
+          
