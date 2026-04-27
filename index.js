@@ -2,10 +2,10 @@ const http = require("http");
 
 const PORT = 4000;
 
-console.log('Epic Node.js API is starting...');
+console.log('Epic Node.js API is starting.');
 
 const server = http.createServer((req, res) => {
-    console.log(`req.method: ${req.method} - req.url: ${req.url}`);
+    console.log(`req.method: ${req.method}  req.url: ${req.url}`);
     
     if (req.url === '/') {
         res.writeHead(200, { "Content-Type": "application/json" });
