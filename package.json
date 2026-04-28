@@ -1,12 +1,12 @@
 {
-  "name": "assignmentcicd",
-  "module": "index.js",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
+  "name": "automated-aws-deployment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
